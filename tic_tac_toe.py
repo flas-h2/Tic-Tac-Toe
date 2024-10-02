@@ -177,9 +177,6 @@ def play_game():
     elif check_winner(board) == [True, "Computer"]:
         print("Computer won!")
         restart()
-    else:
-        print("It was a draw")
-        restart()
 
 
 if __name__ == '__main__':
